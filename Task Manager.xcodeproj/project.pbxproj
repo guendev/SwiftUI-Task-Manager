@@ -27,6 +27,8 @@
 		DC1DA204286F713C00491F7D /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA202286F713C00491F7D /* AddNewTask.swift */; };
 		DC1DA206286F7B7700491F7D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA205286F7B7700491F7D /* TasksView.swift */; };
 		DC1DA207286F7B7700491F7D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA205286F7B7700491F7D /* TasksView.swift */; };
+		DC1DA209286F82BD00491F7D /* Task Manager.zip in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA208286F82BD00491F7D /* Task Manager.zip */; };
+		DC1DA20A286F82BD00491F7D /* Task Manager.zip in Resources */ = {isa = PBXBuildFile; fileRef = DC1DA208286F82BD00491F7D /* Task Manager.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,7 @@
 		DC1DA1FF286F713700491F7D /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		DC1DA202286F713C00491F7D /* AddNewTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
 		DC1DA205286F7B7700491F7D /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		DC1DA208286F82BD00491F7D /* Task Manager.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Task Manager.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,7 @@
 		DC1DA1D0286F708E00491F7D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DC1DA208286F82BD00491F7D /* Task Manager.zip */,
 				DC1DA1F8286F70D800491F7D /* Components */,
 				DC1DA1F7286F70C400491F7D /* ViewModel */,
 				DC1DA1F6286F70BB00491F7D /* View */,
@@ -210,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1DA1EC286F708F00491F7D /* Assets.xcassets in Resources */,
+				DC1DA209286F82BD00491F7D /* Task Manager.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1DA1ED286F708F00491F7D /* Assets.xcassets in Resources */,
+				DC1DA20A286F82BD00491F7D /* Task Manager.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
