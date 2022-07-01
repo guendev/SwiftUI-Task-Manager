@@ -25,6 +25,8 @@
 		DC1DA201286F713700491F7D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA1FF286F713700491F7D /* Home.swift */; };
 		DC1DA203286F713C00491F7D /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA202286F713C00491F7D /* AddNewTask.swift */; };
 		DC1DA204286F713C00491F7D /* AddNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA202286F713C00491F7D /* AddNewTask.swift */; };
+		DC1DA206286F7B7700491F7D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA205286F7B7700491F7D /* TasksView.swift */; };
+		DC1DA207286F7B7700491F7D /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1DA205286F7B7700491F7D /* TasksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,7 @@
 		DC1DA1FC286F712400491F7D /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		DC1DA1FF286F713700491F7D /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		DC1DA202286F713C00491F7D /* AddNewTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewTask.swift; sourceTree = "<group>"; };
+		DC1DA205286F7B7700491F7D /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1DA1F9286F70E300491F7D /* FormItem.swift */,
+				DC1DA205286F7B7700491F7D /* TasksView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1DA1FA286F70E300491F7D /* FormItem.swift in Sources */,
+				DC1DA206286F7B7700491F7D /* TasksView.swift in Sources */,
 				DC1DA203286F713C00491F7D /* AddNewTask.swift in Sources */,
 				DC1DA1FD286F712400491F7D /* TaskViewModel.swift in Sources */,
 				DC1DA1E6286F708F00491F7D /* Task_ManagerApp.swift in Sources */,
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1DA1FB286F70E300491F7D /* FormItem.swift in Sources */,
+				DC1DA207286F7B7700491F7D /* TasksView.swift in Sources */,
 				DC1DA204286F713C00491F7D /* AddNewTask.swift in Sources */,
 				DC1DA1FE286F712400491F7D /* TaskViewModel.swift in Sources */,
 				DC1DA1E7286F708F00491F7D /* Task_ManagerApp.swift in Sources */,

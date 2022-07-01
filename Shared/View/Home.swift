@@ -30,6 +30,7 @@ struct Home: View {
                     .padding(.top, 5)
                 
                 // MARK: View
+                TasksView()
                 
             }
             .padding()
@@ -68,7 +69,7 @@ struct Home: View {
             }
         }
         .fullScreenCover(isPresented: $taskModel.openEditTask) {
-            taskModel.resetForm()
+            taskModel.resetTaskData()
         } content: {
             AddNewTask()
                 .environmentObject(taskModel)
